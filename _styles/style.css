@@ -10,6 +10,8 @@
     align-items: center;
 }
 
+/*NAVEGAÇÃO*/
+
 nav {
     background-color: #ffffff;
     display: flex;
@@ -31,7 +33,7 @@ nav ul {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #000;
-    font-family: Rancho;
+    font-family: "Rancho";
     font-size: 96px;
     font-weight: 400;
 }
@@ -41,6 +43,7 @@ nav ul {
     flex-wrap: wrap;
 }
 
+/*SLOGAN - APRESENTAÇÃO*/
 
 p {
     color: #000;
@@ -64,6 +67,8 @@ p {
     font-size: 48px;
     font-weight: 400;
 }
+
+/*BOTÃO MENU/LOCAL E ICONES*/
 
 .menu-button {
     background-color: #E76F51;
@@ -91,10 +96,16 @@ p {
 .icons {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 488px;
     height: 119px;
     flex-shrink: 0;
     margin: 97px 112px 175px 120px;
+}
+
+.leaf, .rocket, .headset  {
+    width: 50px;
+    height: 50px;
 }
 
 .icons span {
@@ -104,6 +115,8 @@ p {
     font-weight: 400;
     margin-top: 15px;
 }
+
+/*LINHAS ICONES*/
 
 .fast {
     display: flex;
@@ -135,4 +148,150 @@ p {
 
 .image {
     margin: 3px 120px 0px 0px;
+}
+
+/*ESPECIALIDADES*/
+
+.specialties {
+    background: #EFEFEF;
+    width: 1440px;
+    height: 1747px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #000;
+    font-family: "Rancho";
+    font-size: 64px;
+    font-weight: 400;
+    margin: 47px 578px 7px 577px;
+}
+
+.title-specialties .subtitle {
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px 667px 28px 662px;
+}
+
+.pastres span {
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 400;
+    margin: 133px 467px 23px 222px;
+
+}
+
+.specialties h3 {
+    width: 394px;
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-weight: 400;
+    margin: 29px 150px 25px 222px;
+}
+
+.specialties p {
+    color: #333;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-weight: 100;
+    width: 372px;
+    margin: 24px 172px 25px 222px;
+}
+
+.specialties .price {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 24px;
+    font-weight: 300;
+    margin: 25px 486px 112px 222px;
+}
+
+.order {
+    background: #2A9D8F;
+    border-radius: 15px;
+    width: 170px;
+    height: 40px;
+    flex-shrink: 0;
+    border-style: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 374px 261px 222px;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    width: 1440px;
+    height: 616px;
+    flex-shrink: 0;
+    background: #333;
+}
+
+h4 {
+    color: #FEFEFE;
+    font-family: "Rancho";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 167.428px;
+    margin: 59px 0px 45px 120.1px;
+}
+
+.footer p {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 384.464px;
+    margin: 0px 0px 45px 118.3px;
+}
+
+.date {
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 107.484px;
+    margin: 0px 0px 47px 118px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 47px 0px 140px 120px;
+}
+
+.logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
+    color: white;
+    font-size: 56px;
+}
+
+
+.dev {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: "Libre Franklin";
+    font-size: 18px;
+    font-weight: 300;
 }
