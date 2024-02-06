@@ -23,8 +23,7 @@ nav {
 
 nav ul {
     color: #000;
-    font-family: "Libre Franklin";
-    font-size: 20px;
+    font-size: 1.25;
     font-weight: 400;
 }
 
@@ -33,8 +32,7 @@ nav ul {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #000;
-    font-family: "Rancho";
-    font-size: 96px;
+    font-size: 6em;
     font-weight: 400;
 }
 
@@ -47,8 +45,7 @@ nav ul {
 
 p {
     color: #000;
-    font-family: "Josefin Sans";
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 300;
     margin: 177px 157px 126px 120px; 
 
@@ -56,15 +53,11 @@ p {
 
 .veggie {
     color: #2A9D8F;
-    font-family: "Josefin Sans";
-    font-size: 48px;
     font-weight: 400;
 }
 
 .period {
     color: #000;
-    font-family: "Josefin Sans";
-    font-size: 48px;
     font-weight: 400;
 }
 
@@ -73,8 +66,7 @@ p {
 .menu-button {
     background-color: #E76F51;
     color: white;
-    font-family: "Libre Franklin";
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 400;
     width: 165px;
     height: 50px;
@@ -88,8 +80,7 @@ p {
 
 .location {
     color: #000;
-    font-family: "Libre Franklin";
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 400;
 }
 
@@ -110,8 +101,7 @@ p {
 
 .icons span {
     color: #000;
-    font-family: "Libre Franklin";
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 400;
     margin-top: 15px;
 }
@@ -163,42 +153,36 @@ p {
 
 h2 {
     color: #000;
-    font-family: "Rancho";
-    font-size: 64px;
+    font-size: 4em;
     font-weight: 400;
     margin: 47px 578px 7px 577px;
 }
 
 .title-specialties .subtitle {
     color: #E76F51;
-    font-family: "Josefin Sans";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 400;
     margin: 0px 667px 28px 662px;
 }
 
 .pastres span {
     color: #E76F51;
-    font-family: "Josefin Sans";
-    font-size: 24px;
+    font-size: 1.5;
     font-weight: 400;
     margin: 133px 467px 23px 222px;
-
 }
 
 .specialties h3 {
     width: 394px;
     color: #000;
-    font-family: "Josefin Sans";
-    font-size: 42px;
+    font-size: 2.625em;
     font-weight: 400;
     margin: 29px 150px 25px 222px;
 }
 
 .specialties p {
     color: #333;
-    font-family: "Libre Franklin";
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 100;
     width: 372px;
     margin: 24px 172px 25px 222px;
@@ -206,8 +190,7 @@ h2 {
 
 .specialties .price {
     color: #000;
-    font-family: "Libre Franklin";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 300;
     margin: 25px 486px 112px 222px;
 }
@@ -221,10 +204,111 @@ h2 {
     border-style: none;
     cursor: pointer;
     color: #FFF;
-    font-family: "Libre Franklin";
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 400;
     margin: 25px 374px 261px 222px;
+}
+
+.granola {
+    position: relative;
+    top: -629px;
+    left: 755px;
+}
+
+.vegan {
+    position: relative;
+    top: -1131px;
+    left: 193px;
+}
+
+.almuerzo {
+    position: relative;
+    top: -337px;
+    left: 671px;
+}
+
+.almuerzo span {
+    color: #E76F51;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/*TESTEMUNHA*/
+
+.witness {
+    background: #FFF;
+    width: 1440px;
+    height: 893px;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.witness h2 {
+    color: #333;
+    font-size: 4em;
+    font-weight: 400;
+    margin: 18px 564px 18px 564px;
+}
+
+.testimonio .subtitle {
+    color: #E76F51;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 85px 663px 0px 663px;
+}
+
+.witness .image {
+    width: 1200px;
+    height: 566px;
+    flex-shrink: 0;
+    margin: 0px 120px 102px 120px;
+}
+
+.quote {
+    position: relative;
+    top: -783px;
+    left: 682px;
+}
+
+.witness .rating {
+    width: 996px;
+    color: #FFF;
+    font-size: 2.25em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: relative;
+    top: -651px;
+    left: 16px;
+}
+
+.witness span {
+    color: #FFF;
+    font-size: 1.5e,;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -715px;
+    left: 652px;
+}
+
+.ellipse {
+    color: white;
+    width: 140px;
+    height: 25px;
+    flex-shrink: 0;
+    position: relative;
+    top: -623px;
+    left: 450px;
+}
+
+table {
+    color: #FFF;
+font-size: 1.125em;
+font-weight: 300; 
+line-height: -18px;
 }
 
 /*FOOTER*/
@@ -244,33 +328,24 @@ footer {
 
 h4 {
     color: #FEFEFE;
-    font-family: "Rancho";
-    font-size: 96px;
-    font-style: normal;
+    font-size: 6em;
     font-weight: 400;
-    line-height: normal;
     width: 167.428px;
     margin: 59px 0px 45px 120.1px;
 }
 
 .footer p {
     color: #FFF;
-    font-family: "Libre Franklin";
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.125em;
     font-weight: 300;
-    line-height: normal;
     width: 384.464px;
     margin: 0px 0px 45px 118.3px;
 }
 
 .date {
     color: #FFF;
-    font-family: "Libre Franklin";
-    font-size: 18px;
-    font-style: normal;
+    font-size: 1.125em;
     font-weight: 300;
-    line-height: normal;
     width: 107.484px;
     margin: 0px 0px 47px 118px;
 }
@@ -283,7 +358,7 @@ h4 {
 
 .logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
     color: white;
-    font-size: 56px;
+    font-size: 3.5;
 }
 
 
@@ -291,7 +366,6 @@ h4 {
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.90);
-    font-family: "Libre Franklin";
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 300;
 }

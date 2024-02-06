@@ -1,0 +1,65 @@
+* {
+    font-family: "Libre Franklin";
+}
+
+/*NAVEGAÇÃO*/
+
+.title {
+    font-family: "Rancho";
+}
+
+/*SLOGAN - APRESENTAÇÃO*/
+p {
+    font-family: "Josefin Sans";
+}
+
+.veggie {
+    font-family: "Josefin Sans";
+}
+
+.period {
+    font-family: "Josefin Sans";
+}
+
+/*ESPECIALIDADES*/
+
+h2 {
+    font-family: "Rancho";
+}
+
+.title-specialties .subtitle {
+    font-family: "Josefin Sans";
+}
+
+.pastres span {
+    font-family: "Josefin Sans";
+}
+
+.specialties h3 {
+    font-family: "Josefin Sans";
+}
+
+.almuerzo span {
+    font-family: "Josefin Sans";
+}
+
+/*TESTEMUNHA*/
+
+.witness h2 {
+    font-family: "Rancho";
+}
+
+.testimonio .subtitle {
+    font-family: "Josefin Sans";
+}
+
+.witness span {
+    font-family: "Josefin Sans";
+}
+
+/*FOOTER*/
+
+h4 {
+    font-family: "Rancho";
+
+}
