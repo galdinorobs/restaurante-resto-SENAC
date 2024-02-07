@@ -1,3 +1,14 @@
+:root {
+    --Color-Green: #2A9D8F;
+    --Color-Orange: #E76F51;
+    --Color-Yellow: #F4A261;
+    --Color-Black: #000000;
+    --Color-Dark: #222222;
+    --Color-Grey: #333;
+    --Color-Soft-Grey: #7c7c7c;
+    --Color-White: #ffffff;
+}
+
 * {
     font-family: "Libre Franklin";
 }
@@ -5,61 +16,177 @@
 /*NAVEGAÇÃO*/
 
 .title {
+    color: var(--Color-Black);
     font-family: "Rancho";
+    font-size: 6em;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px var(--Color-Dark), 0px 4px 4px var(--Color-Dark);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: var(--Color-Black);
+    list-style: none;
 }
 
 /*SLOGAN - APRESENTAÇÃO*/
+
 p {
+    color: var(--Color-Black);
     font-family: "Josefin Sans";
+    font-size: 3em;
+    font-weight: 300;
+    margin: 177px 157px 126px 120px; 
 }
 
 .veggie {
+    color: var(--Color-Green);
     font-family: "Josefin Sans";
+    font-weight: 400;
 }
 
 .period {
+    color: var(--Color-Black);
     font-family: "Josefin Sans";
+    font-weight: 400;
+}
+
+/*BOTÃO MENU/LOCAL E ICONES*/
+
+.menu-button {
+    color: var(--Color-White);
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.location {
+    color: var(--Color-Black);
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.icons span {
+    color: var(--Color-Black);
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-top: 15px;
 }
 
 /*ESPECIALIDADES*/
 
 h2 {
+    color: var(--Color-Black);
     font-family: "Rancho";
+    font-size: 4em;
+    font-weight: 400;
+    margin: 47px 578px 7px 577px;
 }
 
 .title-specialties .subtitle {
+    color: var(--Color-Orange);
     font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0px 667px 28px 662px;
 }
 
 .pastres span {
+    color: var(--Color-Orange);
     font-family: "Josefin Sans";
+    font-size: 1.5;
+    font-weight: 400;
+    margin: 284px 467px 23px 222px;
 }
 
 .specialties h3 {
+    width: 394px;
     font-family: "Josefin Sans";
+    color: var(--Color-Black);
+    font-size: 2.625em;
+    font-weight: 400;
+    margin: 29px 150px 25px 222px;
 }
 
-.almuerzo span {
-    font-family: "Josefin Sans";
+.specialties p {
+    color: var(--Color-Grey);
+    font-size: 1.125em;
+    font-weight: 100;
+    width: 372px;
+    margin: 24px 172px 25px 222px;
 }
+
+.specialties .price {
+    color: var(--Color-Black);
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 25px 486px 112px 222px;
+}
+
 
 /*TESTEMUNHA*/
 
 .witness h2 {
+    color: var(--Color-Grey);
     font-family: "Rancho";
+    font-size: 4em;
+    font-weight: 400;
+    margin: 18px 564px 18px 564px;
 }
 
 .testimonio .subtitle {
+    color: var(--Color-Orange);
     font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 85px 663px 0px 663px;
 }
 
 .witness span {
+    color: var(--Color-White);
     font-family: "Josefin Sans";
+    font-size: 1.5e,;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -715px;
+    left: 652px;
 }
 
 /*FOOTER*/
 
 h4 {
+    color: var(--Color-White);
     font-family: "Rancho";
+    font-size: 6em;
+    font-weight: 400;
+    width: 167.428px;
+    margin: 59px 0px 45px 120.1px;
+}
 
+.footer p {
+    color: var(--Color-White);
+    font-size: 1.125em;
+    font-weight: 300;
+    width: 384.464px;
+    margin: 0px 0px 45px 118.3px;
+}
+
+.date {
+    color: var(--Color-White);
+    font-size: 1.125em;
+    font-weight: 300;
+    width: 107.484px;
+    margin: 0px 0px 47px 118px;
+}
+
+.time p, .diretction p {
+    color: var(--Color-Orange);
+    font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.time li, .direction span {
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 300;
+    list-style: none;
 }
