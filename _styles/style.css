@@ -36,9 +36,9 @@ nav {
 nav ul {
     list-style: none;
     display: inline-flex;
-padding: 15px 120px;
-align-items: center;
-gap: 166px;
+    padding: 15px 120px;
+    align-items: center;
+    gap: 166px;
 }
 
 nav li {
@@ -126,6 +126,18 @@ nav li {
     flex-wrap: wrap;
 }
 
+.candy, .dinner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pastres h3 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/*BOTÃO PEDIDO*/
+
 .order {
     background: var(--Color-Green);
     border-radius: 15px;
@@ -196,16 +208,15 @@ table {
 /*FOOTER*/
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    background: var(--Color-Grey);
 }
 
 .footer {
     display: flex;
-    width: 1440px;
-    height: 616px;
-    flex-shrink: 0;
-    background: var(--Color-Grey);
+    justify-content: space-between;
+    align-items: center;
+    /*padding*/
 }
 
 .social {
@@ -217,12 +228,4 @@ footer {
 .logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
     color: var(--Color-White);
     font-size: 3.5EM;
-}
-
-.dev {
-    display: flex;
-    align-items: center;
-    color: var(--Color-White);
-    font-size: 1.125em;
-    font-weight: 300;
 }

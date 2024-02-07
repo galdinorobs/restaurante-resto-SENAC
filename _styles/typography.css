@@ -36,7 +36,7 @@ p {
     margin: 177px 157px 126px 120px; 
 }
 
-.veggie {
+.veggie, .period {
     color: var(--Color-Green);
     font-family: "Josefin Sans";
     font-weight: 400;
@@ -44,28 +44,21 @@ p {
 
 .period {
     color: var(--Color-Black);
-    font-family: "Josefin Sans";
-    font-weight: 400;
 }
 
 /*BOTÃO MENU/LOCAL E ICONES*/
 
-.menu-button {
+.menu-button, .location, .icons span {
     color: var(--Color-White);
     font-size: 1.25em;
     font-weight: 400;
 }
 
-.location {
+.location, .icons span {
     color: var(--Color-Black);
-    font-size: 1.25em;
-    font-weight: 400;
 }
 
 .icons span {
-    color: var(--Color-Black);
-    font-size: 1.25em;
-    font-weight: 400;
     margin-top: 15px;
 }
 
@@ -161,7 +154,7 @@ h4 {
     margin: 59px 0px 45px 120.1px;
 }
 
-.footer p {
+.footer p, .date {
     color: var(--Color-White);
     font-size: 1.125em;
     font-weight: 300;
@@ -170,9 +163,6 @@ h4 {
 }
 
 .date {
-    color: var(--Color-White);
-    font-size: 1.125em;
-    font-weight: 300;
     width: 107.484px;
     margin: 0px 0px 47px 118px;
 }
@@ -189,4 +179,10 @@ h4 {
     font-size: 1.1em;
     font-weight: 300;
     list-style: none;
+}
+
+.dev {
+    color: var(--Color-White);
+    font-size: 1.125em;
+    font-weight: 300;
 }
