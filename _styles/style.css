@@ -111,7 +111,7 @@ nav li {
     background: var(--Color-Dark);
 }
 
-.image {
+.korean {
     margin: 3px 120px 0px 0px;
 }
 
@@ -119,23 +119,26 @@ nav li {
 
 .specialties {
     background: var(--Color-White-Dark);
-    width: 1440px;
-    height: 1747px;
-    flex-shrink: 0;
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .candy, .dinner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.pastres h3 {
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    padding-top: 29px;
-    padding-bottom: 29px;
+.yogurt, .vegan {
+    width: 30%;
+    margin: 133px 150px 0px 222px;
+}
+
+.granola {
+    margin: 28px 211px 0px 0px;
+}
+
+.soup {
+    margin: 227px 211px 0px 0px;
 }
 
 .order {
@@ -149,11 +152,7 @@ nav li {
     color: var(--Color-White);
     font-size: 1.25em;
     font-weight: 400;
-    margin: 25px 374px 261px 222px;
-}
-
-.granola {
-    width: 50%;
+    margin: 25px 222px 261px 0px;
 }
 
 /*TESTEMUNHA*/
@@ -202,13 +201,6 @@ nav li {
     left: 450px;
 }
 
-table {
-    color: var(--Color-White);
-    font-size: 1.125em;
-    font-weight: 300; 
-    line-height: -18px;
-}
-
 /*FOOTER*/
 
 footer {
@@ -231,11 +223,19 @@ footer {
 .location-outline {
     color: var(--Color-White);
     width: 36.173px;
-height: 35px;
-flex-shrink: 0;
+    height: 35px;
+    flex-shrink: 0;
 }
 
 .logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
     color: var(--Color-White);
     font-size: 3.5EM;
+}
+
+.maps {
+    width: 100%;
+}
+
+iframe {
+    border-radius: 7px;
 }

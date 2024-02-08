@@ -69,45 +69,86 @@ h2 {
     font-family: "Rancho";
     font-size: 4em;
     font-weight: 400;
-    margin: 47px 578px 7px 577px;
+    text-align: center;
 }
 
-.title-specialties .subtitle, .pastres span {
+.title-specialties .subtitle {
     color: var(--Color-Orange);
     font-family: "Josefin Sans";
     font-size: 1.5em;
     font-weight: 400;
-    margin: 0px 667px 28px 662px;
+    margin: 0px 667px 0px 662px;
 }
 
-.pastres span {
-    margin: 284px 467px 23px 222px;
+/*sobremesa*/
+.yogurt span {
+    color: var(--Color-Orange);
+    font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
-.specialties h3 {
+.yogurt h3 {
     width: 394px;
     font-family: "Josefin Sans";
     color: var(--Color-Black);
     font-size: 2.625em;
     font-weight: 400;
-    margin: 29px 150px 25px 222px;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 29px;
+    padding-bottom: 29px;
 }
 
-.specialties p {
+.yogurt p {
     color: var(--Color-Grey);
-    font-size: 1.125em;
+    font-size: 1.2em;
     font-weight: 100;
     width: 372px;
-    margin: 24px 172px 25px 222px;
+    margin: 24px 0px 25px;
 }
 
-.specialties .price {
+.yogurt .price {
     color: var(--Color-Black);
     font-size: 1.5em;
     font-weight: 300;
-    margin: 25px 486px 112px 222px;
 }
 
+/*almoço*/
+.soup span {
+    color: var(--Color-Orange);
+    font-family: "Josefin Sans";
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.soup h3 {
+    width: 394px;
+    font-family: "Josefin Sans";
+    color: var(--Color-Black);
+    font-size: 2.625em;
+    font-weight: 400;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.soup p {
+    color: var(--Color-Grey);
+    font-size: 1.2em;
+    font-weight: 100;
+    width: 372px;
+    margin: 24px 0px 25px;
+}
+
+.soup .price {
+    color: var(--Color-Black);
+    font-size: 1.5em;
+    font-weight: 300;
+}
 
 /*TESTEMUNHA*/
 
