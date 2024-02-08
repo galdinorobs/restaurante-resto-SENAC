@@ -134,9 +134,9 @@ nav li {
 .pastres h3 {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
+    padding-top: 29px;
+    padding-bottom: 29px;
 }
-
-/*BOTÃO PEDIDO*/
 
 .order {
     background: var(--Color-Green);
@@ -150,6 +150,10 @@ nav li {
     font-size: 1.25em;
     font-weight: 400;
     margin: 25px 374px 261px 222px;
+}
+
+.granola {
+    width: 50%;
 }
 
 /*TESTEMUNHA*/
@@ -216,13 +220,19 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding*/
 }
 
 .social {
     display: flex;
     justify-content: space-between;
     margin: 47px 0px 140px 120px;
+}
+
+.location-outline {
+    color: var(--Color-White);
+    width: 36.173px;
+height: 35px;
+flex-shrink: 0;
 }
 
 .logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
