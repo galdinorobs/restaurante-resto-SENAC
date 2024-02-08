@@ -214,22 +214,33 @@ footer {
     align-items: center;
 }
 
+.footer-info, .time, .direction {
+    width: 50%;
+    text-align: center;
+}
+
 .social {
     display: flex;
     justify-content: space-between;
     margin: 47px 0px 140px 120px;
 }
 
+.logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
+    color: var(--Color-White);
+    font-size: 3.5em;
+}
+
+.call {
+    color: var(--Color-White);
+    font-size: 2.5em;
+}
+
+/*mapa*/
 .location-outline {
     color: var(--Color-White);
     width: 36.173px;
     height: 35px;
     flex-shrink: 0;
-}
-
-.logo-instagram, .logo-whatsapp, .logo-facebook, .logo-twitter {
-    color: var(--Color-White);
-    font-size: 3.5EM;
 }
 
 .maps {

@@ -187,7 +187,7 @@ h4 {
     font-family: "Rancho";
     font-size: 6em;
     font-weight: 400;
-    width: 167.428px;
+
     margin: 59px 0px 45px 120.1px;
 }
 
@@ -195,40 +195,45 @@ h4 {
     color: var(--Color-White);
     font-size: 1.125em;
     font-weight: 300;
-    width: 384.464px;
+    text-align: start;
+
     margin: 0px 0px 45px 118.3px;
 }
 
 .date {
-    width: 107.484px;
     margin: 0px 0px 47px 118px;
 }
 
-.time p, .diretction p {
+.time p, .direction p {
     color: var(--Color-Orange);
     font-family: "Josefin Sans";
     font-size: 1.5em;
     font-weight: 400;
+    border-bottom: 1px solid var(--Color-White);
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
 }
 
-.time li {
-    color: #FFF;
+.time ul li {
+    color: var(--Color-White);
     font-size: 1.1em;
     font-weight: 300;
     list-style: none;
     line-height: 50px;
-    padding-left: 100px;
 }
 
-.direction span {
-    color: #FFF;
-    font-size: 1.1em;
-    font-weight: 300;
-    list-style: none;
+.tel {
+    margin-top: 10px;
+    color: var(--Color-White);
 }
+
 
 .dev {
     color: var(--Color-White);
     font-size: 1.125em;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
 }
